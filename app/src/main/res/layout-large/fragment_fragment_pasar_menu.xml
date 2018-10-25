@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ec.edu.ups.byron_adrian_gmn.controlrobot.Fragment_pasar_menu">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo">
+
+        <!-- TODO: Update blank fragment layout -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btnPasar"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/puzzles"
+                android:text="Pasar" />
+
+            <Button
+                android:id="@+id/Desconectarbtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="700dp"
+                android:background="@drawable/desconecta"
+                />
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

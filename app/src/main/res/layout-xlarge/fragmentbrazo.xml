@@ -1,0 +1,102 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ec.edu.ups.byron_adrian_gmn.controlrobot.FragmentBrazo">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo">
+
+        <!-- TODO: Update blank fragment layout -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/brazostxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:text="BRAZOS"
+                android:textAlignment="center"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/BufferBrazotxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/caminartxt"
+                android:layout_marginTop="35dp"
+                android:text="Dato:"
+                android:textAllCaps="false"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Arribabtn"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/BufferBrazotxt"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="90dp"
+                android:background="@drawable/brazo_arriba1"
+                android:text="" />
+
+            <Button
+                android:id="@+id/Abajobtn"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/Arribabtn"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="140dp"
+                android:background="@drawable/brazo_abajo"
+                android:text="" />
+
+            <Button
+                android:id="@+id/Arribabtn2"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/BufferBrazotxt"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="90dp"
+                android:background="@drawable/brazo_arriba"
+                android:text="" />
+
+            <Button
+                android:id="@+id/Abajobtn2"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/Arribabtn2"
+
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="140dp"
+                android:background="@drawable/brazo_abajo1"
+                android:text="" />
+
+            <Button
+                android:id="@+id/Desconectarbtn"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1080dp"
+                android:background="@drawable/desconecta" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

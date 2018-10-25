@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ec.edu.ups.byron_adrian_gmn.controlrobot.Fragment_pasar_menu">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo">
+
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btnPasar"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/BufferCabezatxt"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/puzzles"
+                android:text="Pasar" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

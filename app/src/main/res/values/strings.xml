@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Robot Control</string>
+    <string name="draggable_text">Caminar</string>
+    <string name="draggable_button">MOVER EL BRAZO ARRIBA  DERECHA</string>
+    <string name="draggable_button1">MOVER EL BRAZO ABAJO  DERECHA</string>
+    <string name="draggable_button2">MOVER EL BRAZO ARRIBA  IZQUIERDA</string>
+    <string name="draggable_button3">MOVER EL BRAZO ABAJO  IZQUIERDA</string>
+    <string name="draggable_button4">PARAR</string>
+    <string name="draggable_button5">ADELANTE</string>
+    <string name="draggable_button6">RETROCEDER</string>
+    <string name="draggable_button7">GIRAR DERECHA</string>
+    <string name="draggable_button8">GIRAR IZQUIERDA</string>
+    <string name="draggable_button9">ALEGRE</string>
+    <string name="draggable_button10">NORMAL</string>
+    <string name="draggable_button11">TRISTE</string>
+    <string name="draggable_button12">PLAY</string>
+    <string name="draggable_button13">LIMPIAR</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

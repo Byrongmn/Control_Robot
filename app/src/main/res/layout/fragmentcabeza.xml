@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ec.edu.ups.byron_adrian_gmn.controlrobot.FragmentCabeza">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo">
+
+    <!-- TODO: Update blank fragment layout -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/cabezatxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:text="ROSTRO"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/BufferCabezatxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/cabezatxt"
+                android:layout_marginTop="15dp"
+                android:text="Dato:"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Normalbtn"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/rtnormal"
+                android:text="" />
+
+            <Button
+                android:id="@+id/Alegrebtn"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="180dp"
+                android:background="@drawable/rtalegre"
+                android:text="" />
+
+            <Button
+                android:id="@+id/Tristebtn"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="300dp"
+                android:background="@drawable/rtriste"
+                android:text="" />
+
+            <Button
+                android:id="@+id/Desconectarbtn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="510dp"
+                android:background="@drawable/desconecta"
+                />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>
