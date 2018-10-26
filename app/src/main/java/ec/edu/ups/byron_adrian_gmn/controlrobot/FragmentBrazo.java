@@ -80,17 +80,14 @@ public class FragmentBrazo extends Fragment implements View.OnClickListener {
                              Bundle savedInstanceState) {
         ((AppCompatActivity) getActivity()).getSupportActionBar().hide();
         View myView = inflater.inflate(R.layout.fragmentbrazo, container, false);
-        // Inflate the layout for this fragment
         Arriba = (Button) myView.findViewById(R.id.Arribabtn);
         Arriba.setOnClickListener(this);
         Arriba2 = (Button) myView.findViewById(R.id.Arribabtn2);
         Arriba2.setOnClickListener(this);
-
         Abajo = (Button) myView.findViewById(R.id.Abajobtn);
         Abajo.setOnClickListener(this);
         Abajo2 = (Button) myView.findViewById(R.id.Abajobtn2);
         Abajo2.setOnClickListener(this);
-
         Desconectar = (Button) myView.findViewById(R.id.Desconectarbtn);
         Desconectar.setOnClickListener(this);
         IdBufferIn = (TextView) myView.findViewById(R.id.BufferBrazotxt);

@@ -79,7 +79,6 @@ public class FragmentCabeza extends Fragment implements View.OnClickListener {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         ((AppCompatActivity) getActivity()).getSupportActionBar().hide();
-
         View myView = inflater.inflate(R.layout.fragmentcabeza, container, false);
         Normal = (Button) myView.findViewById(R.id.Normalbtn);
         Normal.setOnClickListener(this);
